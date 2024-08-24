@@ -50,10 +50,8 @@ Each user has their own task queue:
 
 ## How to Run
 1. **Change Directory**:
-   - Navigate to the project directory:
      ```bash
      cd "User Task Queuing with Rate Limiting"
-     ```
      
 2. **Install Dependencies**:
    ```bash
