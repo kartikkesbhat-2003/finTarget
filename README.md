@@ -49,22 +49,27 @@ Each user has their own task queue:
   - Continues processing the queue until all tasks are completed.
 
 ## How to Run
-
-1. **Install Dependencies**:
+1. **Change Directory**:
+   - Navigate to the project directory:
+     ```bash
+     cd "User Task Queuing with Rate Limiting"
+     ```
+     
+2. **Install Dependencies**:
    ```bash
    npm install
 
 
-2. **Start the Server**:
+3. **Start the Server**:
    ```bash
    npm run dev
 
-3. **Send Task Requests**:
+4. **Send Task Requests**:
    ```json
    {
         "user_id": "123"
    }
 
-4. **Monitor Task Processing**:
+5. **Monitor Task Processing**:
 
     Task completions are logged in `task_log.txt`.
